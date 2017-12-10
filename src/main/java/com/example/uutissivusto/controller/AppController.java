@@ -19,7 +19,7 @@ public class AppController {
     @GetMapping("/")
     @ResponseBody
     public String hello() {
-        return "Suomi 100 perkele!";
+        return "Suomi 100 perkele!test";
     }
     
 }
